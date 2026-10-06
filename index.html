@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Alergias Borthaburu · Instagram</title>
+<meta name="description" content="Propuesta de lanzamiento y plan de octubre para el Instagram del Consultorio de Alergias Borthaburu.">
+<style>
+@font-face{font-family:"Fraunces";font-weight:700;src:url(fonts/fraunces-latin-700-normal.woff2) format("woff2");font-display:swap}
+@font-face{font-family:"Fraunces";font-weight:900;src:url(fonts/fraunces-latin-900-normal.woff2) format("woff2");font-display:swap}
+@font-face{font-family:"Fraunces";font-weight:900;font-style:italic;src:url(fonts/fraunces-latin-900-italic.woff2) format("woff2");font-display:swap}
+@font-face{font-family:"Bricolage";font-weight:500;src:url(fonts/bricolage-grotesque-latin-500-normal.woff2) format("woff2");font-display:swap}
+@font-face{font-family:"Bricolage";font-weight:800;src:url(fonts/bricolage-grotesque-latin-800-normal.woff2) format("woff2");font-display:swap}
+:root{--paper:#F3EDE0;--paper2:#E9E1CF;--ink:#14301F;--leaf:#5E9A4E;--leafD:#3C6E3A;--leafL:#9CC57A;--pollen:#F4C542;--coral:#EE6A4D;--mint:#D6E9E0;--white:#FFFDF8;--muted:#4c6355;--line:rgba(20,48,31,.15)}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Bricolage",system-ui,sans-serif;font-weight:500;font-size:17px;line-height:1.55;overflow-x:hidden}
+img,video{display:block;max-width:100%;height:auto}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+.lbl{font-weight:800;font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--leafD)}
+h1,h2,h3{font-family:"Fraunces",Georgia,serif;font-weight:900;line-height:1.02;letter-spacing:-.01em}
+h1 em,h2 em{font-style:italic;color:var(--coral)}
+p+p{margin-top:.7em}
+
+header{padding:28px 0 56px}
+.top{display:flex;align-items:center;gap:12px;margin-bottom:48px}
+.top img{width:52px;height:52px;border-radius:50%}
+.top b{font-family:"Fraunces";font-weight:900;font-size:19px;line-height:1.1;overflow-wrap:anywhere}
+.top>div{min-width:0}
+header h1{font-size:clamp(42px,8.5vw,88px);max-width:900px}
+.lead{max-width:640px;margin-top:22px;font-size:19px;color:var(--muted)}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);margin-top:40px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.facts div{padding:18px 12px 18px 0}
+.facts b{display:block;font-family:"Fraunces";font-weight:900;font-size:clamp(34px,6vw,50px);line-height:1}
+.facts div{min-width:0}
+.facts span{font-size:14px;color:var(--muted)}
+
+section{padding:64px 0;border-top:1px solid var(--line)}
+section.mint{background:var(--mint);border-top:0}
+section.ink{background:var(--ink);color:var(--paper);border-top:0}
+section.ink .lbl{color:var(--leafL)}
+section.ink h2{color:var(--paper)}
+section.ink h2 em{color:var(--pollen)}
+.sec-h{margin-bottom:32px;max-width:700px}
+.sec-h h2{font-size:clamp(32px,5.5vw,54px);margin-top:8px}
+.sec-h p{margin-top:14px;color:var(--muted)}
+section.ink .sec-h p{color:#c9d6cc}
+
+/* perfil simulado */
+.phone{max-width:420px;background:var(--white);border:7px solid var(--ink);border-radius:34px;padding:22px 18px 18px;box-shadow:12px 12px 0 var(--ink)}
+.prof{display:flex;gap:16px;align-items:center}
+.prof img{width:84px;height:84px;border-radius:50%;border:2px solid var(--line)}
+.prof b{display:block;font-size:17px}
+.prof span{font-size:13px;color:var(--muted)}
+.bio{margin-top:14px;font-size:14.5px;line-height:1.45;white-space:pre-line}
+.bio a{color:#00376b;font-weight:800;text-decoration:none}
+.btns{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-top:12px}
+.btns span{background:#eee;border-radius:8px;text-align:center;font-size:13px;font-weight:800;padding:7px}
+.hl{display:flex;gap:12px;margin-top:16px;overflow-x:auto;padding-bottom:4px}
+.hl figure{flex:0 0 auto;width:62px;text-align:center;font-size:11px}
+.hl .c{width:62px;height:62px;border-radius:50%;overflow:hidden;border:2px solid var(--line);background:var(--ink)}
+.hl .c img{width:100%;height:100%;object-fit:cover;transform:scale(1.9)}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;margin:16px -18px -18px;border-radius:0 0 26px 26px;overflow:hidden}
+.grid3 img{aspect-ratio:3/4;object-fit:cover;width:100%}
+.profwrap{display:grid;grid-template-columns:420px 1fr;gap:48px;align-items:start}
+.profwrap>*{min-width:0}
+.bio a{overflow-wrap:anywhere}
+.notes{list-style:none}
+.notes li{padding:16px 0;border-top:1px solid var(--line)}
+.notes b{display:block;font-family:"Fraunces";font-weight:900;font-size:20px;margin-bottom:2px}
+.notes span{color:var(--muted);font-size:15.5px}
+
+/* reels */
+.reels{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.reel video{width:100%;aspect-ratio:9/16;border-radius:18px;background:var(--ink);border:5px solid var(--ink)}
+.reel .when{margin-top:14px}
+.reel h3{font-size:24px;margin-top:4px}
+.reel p{font-size:15px;color:var(--muted);margin-top:6px}
+details{margin-top:10px;font-size:14px}
+summary{cursor:pointer;font-weight:800;color:var(--leafD)}
+pre{white-space:pre-wrap;font-family:inherit;background:var(--white);border:1px solid var(--line);border-radius:12px;padding:12px;margin-top:8px;font-size:14px;line-height:1.45}
+
+/* historias y carrusel */
+.strip{display:flex;gap:16px;overflow-x:auto;padding-bottom:12px;scroll-snap-type:x mandatory}
+.strip figure{flex:0 0 auto;scroll-snap-align:start}
+.strip.st figure{width:min(240px,62vw)}
+.strip.ca figure{width:min(340px,80vw)}
+.strip img{border-radius:14px;border:4px solid var(--ink);width:100%}
+.strip figcaption{font-size:14px;margin-top:8px;color:var(--muted)}
+section.ink .strip img{border-color:var(--paper)}
+section.ink .strip figcaption{color:#c9d6cc}
+.dest{display:flex;gap:18px;flex-wrap:wrap;margin-top:28px}
+.dest figure{text-align:center;font-size:13px;font-weight:800;letter-spacing:.06em}
+.dest .c{width:84px;height:84px;border-radius:50%;overflow:hidden;margin-bottom:6px;border:3px solid var(--paper)}
+.dest .c img{width:100%;height:100%;object-fit:cover;transform:scale(1.9)}
+
+/* plan */
+.weeks{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.wk{background:var(--white);border:4px solid var(--ink);border-radius:22px;padding:22px}
+.wk .lbl{color:var(--coral)}
+.wk h3{font-size:26px;margin:6px 0 10px}
+.wk ul{padding-left:18px;font-size:15.5px}
+.wk li+li{margin-top:6px}
+.wk .st{display:inline-block;margin-top:14px;font-size:12px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;padding:4px 10px;border-radius:99px;background:var(--pollen)}
+.wk .st.no{background:var(--paper2)}
+.rhythm{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-bottom:32px}
+.rhythm div{border-top:4px solid var(--ink);padding-top:12px}
+.rhythm b{font-family:"Fraunces";font-weight:900;font-size:40px;line-height:1;display:block}
+.rhythm span{font-size:15px;color:var(--muted)}
+
+/* reglas */
+.rules{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.rules h3{font-size:24px;margin-bottom:10px}
+.rules ul{list-style:none}
+.rules li{padding:10px 0 10px 30px;border-top:1px solid rgba(243,237,224,.2);position:relative;font-size:15.5px}
+.rules li::before{position:absolute;left:0;top:9px;font-weight:800}
+.yes li::before{content:"✓";color:var(--leafL)}
+.no li::before{content:"✕";color:var(--coral)}
+
+.todo{list-style:none;counter-reset:t}
+.todo li{counter-increment:t;display:grid;grid-template-columns:46px 1fr;gap:12px;padding:16px 0;border-top:1px solid var(--line)}
+.todo li::before{content:counter(t);font-family:"Fraunces";font-weight:900;font-style:italic;font-size:34px;line-height:1;color:var(--coral)}
+.todo b{display:block}
+.todo span{color:var(--muted);font-size:15.5px}
+
+footer{padding:40px 0 60px;font-size:13.5px;color:var(--muted);border-top:1px solid var(--line)}
+footer p+p{margin-top:6px}
+
+@media (max-width:860px){
+  .profwrap{grid-template-columns:1fr}
+  .phone{max-width:100%}
+  .reels{grid-template-columns:1fr;max-width:380px}
+  .weeks,.rules{grid-template-columns:1fr}
+}
+@media (max-width:520px){
+  body{font-size:16px}
+  .facts{grid-template-columns:1fr 1fr 1fr}
+  .facts span{font-size:12.5px}
+  .rhythm{grid-template-columns:1fr}
+  .phone{box-shadow:6px 6px 0 var(--ink)}
+}
+</style>
+</head>
+<body>
+
+<header class="wrap">
+  <div class="top">
+    <img src="png/perfil.jpg" alt="Logo del Consultorio de Alergias Borthaburu">
+    <div><b>@alergiasborthaburu</b><div class="lbl">Propuesta · octubre 2026</div></div>
+  </div>
+  <h1>El Instagram del consultorio, <em>listo para salir.</em></h1>
+  <p class="lead">Con los tres reels animados que ya están hechos, el perfil arranca completo desde el primer día. Después sigue con una pieza nueva por semana sobre la alergia de cada temporada: ahora, el pasto.</p>
+  <div class="facts">
+    <div><b>3</b><span>reels animados listos</span></div>
+    <div><b>17</b><span>placas diseñadas (historias, destacadas, carrusel)</span></div>
+    <div><b>4</b><span>semanas planificadas</span></div>
+  </div>
+</header>
+
+<section>
+  <div class="wrap profwrap">
+    <div class="phone" aria-label="Vista del perfil">
+      <div class="prof">
+        <img src="png/perfil.jpg" alt="">
+        <div><b>alergiasborthaburu</b><span>Alergista · Dr. Borthaburu<br>Alergólogo</span></div>
+      </div>
+      <p class="bio">Alergia e Inmunología · Dr. Pedro H. Borthaburu
+Pruebas de alergia · Espirometría · Inmunoterapia
+📍 Junín 1390 PB, CABA
+📲 Turnos por WhatsApp 👇
+<a href="https://wa.me/5491136021480?text=Hola!%20Quer%C3%ADa%20solicitar%20un%20turno.">wa.me/5491136021480</a></p>
+      <div class="btns"><span>WhatsApp</span><span>Llamar</span></div>
+      <div class="hl">
+        <figure><div class="c"><img src="png/d1.jpg" alt=""></div>Turnos</figure>
+        <figure><div class="c"><img src="png/d2.jpg" alt=""></div>Prácticas</figure>
+        <figure><div class="c"><img src="png/d3.jpg" alt=""></div>Coberturas</figure>
+        <figure><div class="c"><img src="png/d4.jpg" alt=""></div>Reseñas</figure>
+        <figure><div class="c"><img src="png/d5.jpg" alt=""></div>Polen</figure>
+      </div>
+      <div class="grid3">
+        <img src="png/portada-pasto.jpg" alt="Portada del reel ¿Resfrío o alergia al pasto?">
+        <img src="png/portada-gato.jpg" alt="Portada del reel sobre alergia al gato">
+        <img src="png/portada-platanos.jpg" alt="Portada del reel sobre los plátanos">
+      </div>
+    </div>
+    <div>
+      <div class="sec-h">
+        <span class="lbl">El perfil</span>
+        <h2>Así lo ve alguien que <em>busca alergista</em></h2>
+        <p>Muchos pacientes buscan al médico en Instagram antes de pedir turno, sobre todo cuando vienen derivados. Lo que ven tiene que contestar tres preguntas en segundos.</p>
+      </div>
+      <ul class="notes">
+        <li><b>¿Quién es?</b><span>Nombre del doctor, especialidad y categoría "Alergólogo". El logo de siempre, la "B" con el adulto y el chico.</span></li>
+        <li><b>¿Qué hace?</b><span>Pruebas de alergia, espirometría e inmunoterapia, en la bio y en la destacada "Prácticas".</span></li>
+        <li><b>¿Cómo pido turno?</b><span>Un toque y se abre WhatsApp con el mensaje "Hola! Quería solicitar un turno." ya escrito.</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="mint">
+  <div class="wrap">
+    <div class="sec-h">
+      <span class="lbl">Día 1 y día 2</span>
+      <h2>Tres reels para <em>arrancar</em></h2>
+      <p>Están animados con el doctor dibujado. Cada uno cierra con una palabra para escribir al WhatsApp (PASTO, GATO): así sabemos qué video trajo cada consulta.</p>
+    </div>
+    <div class="reels">
+      <article class="reel">
+        <video src="video/reel-platanos.mp4" poster="png/portada-platanos.jpg" controls preload="none" playsinline></video>
+        <div class="when lbl">Día 1 · primero</div>
+        <h3>Primavera sin achís</h3>
+        <p>70.000 plátanos en las veredas de Buenos Aires: 1 de cada 6 árboles de la calle. 26 segundos.</p>
+        <details><summary>Ver texto de la publicación</summary><pre>En Buenos Aires hay 70.000 plátanos en las veredas: 1 de cada 6 árboles de la calle 🌳
+
+Si cada septiembre la pelusa te hace estornudar, no es mala suerte. Con inmunoterapia, 8 de cada 10 pacientes mejoran sus síntomas (fuente: SGAIC). Requiere diagnóstico médico.
+
+📲 11 3602 1480
+📍 Junín 1390 PB, CABA
+Contenido informativo, no reemplaza la consulta médica.</pre></details>
+      </article>
+      <article class="reel">
+        <video src="video/reel-gato.mp4" poster="png/portada-gato.jpg" controls preload="none" playsinline></video>
+        <div class="when lbl">Día 1 · una hora después</div>
+        <h3>Ni vi al gato y ya estaba estornudando</h3>
+        <p>Fel d 1, la proteína del gato, y un "¿mito o verdad?" con los gatos sin pelo. 37 segundos.</p>
+        <details><summary>Ver texto de la publicación</summary><pre>¿Estornudás en casas con gato aunque no lo veas? 🐈
+
+La proteína Fel d 1 flota, se pega a la ropa y dura meses. Y no, ningún gato es 100 % hipoalergénico.
+
+¿Tenés que regalar al tuyo? No necesariamente: primero, diagnóstico.
+
+📲 11 3602 1480 (escribí GATO)
+📍 Junín 1390 PB, CABA
+Contenido informativo, no reemplaza la consulta médica.</pre></details>
+      </article>
+      <article class="reel">
+        <video src="video/reel-pasto.mp4" poster="png/portada-pasto.jpg" controls preload="none" playsinline></video>
+        <div class="when lbl">Día 2 · fijado arriba</div>
+        <h3>¿Resfrío o alergia al pasto?</h3>
+        <p>Calendario del polen, resfrío o alergia y 4 consejos. Es el de la temporada que empieza ahora. 36 segundos.</p>
+        <details><summary>Ver texto de la publicación</summary><pre>Calendario del alérgico porteño 📅
+
+Los pastos largan polen de fines de septiembre a enero, con pico en noviembre y diciembre. Si tu "resfrío" vuelve cada primavera, puede ser alergia.
+
+Guardalo 📌 y compartilo con quien estornuda en serie.
+
+📲 11 3602 1480 (escribí PASTO)
+📍 Junín 1390 PB, CABA
+Contenido informativo, no reemplaza la consulta médica.</pre></details>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ink">
+  <div class="wrap">
+    <div class="sec-h">
+      <span class="lbl">Historias del día 1</span>
+      <h2>Presentarse <em>una sola vez</em>, bien</h2>
+      <p>Cuatro historias que después quedan guardadas en las destacadas del perfil, para quien llegue más adelante.</p>
+    </div>
+    <div class="strip st">
+      <figure><img src="png/h1.jpg" alt="Historia: ¡Hola! Somos el Consultorio de Alergias Borthaburu" loading="lazy"><figcaption>1 · ¡Hola!</figcaption></figure>
+      <figure><img src="png/h2.jpg" alt="Historia: Qué hacemos" loading="lazy"><figcaption>2 · Qué hacemos</figcaption></figure>
+      <figure><img src="png/h3.jpg" alt="Historia: pedí turno por WhatsApp" loading="lazy"><figcaption>3 · Turnos, con link a WhatsApp</figcaption></figure>
+      <figure><img src="png/h4.jpg" alt="Historia: reseña de Google" loading="lazy"><figcaption>4 · Una reseña real de Google</figcaption></figure>
+    </div>
+    <div class="dest">
+      <figure><div class="c"><img src="png/d1.jpg" alt=""></div>TURNOS</figure>
+      <figure><div class="c"><img src="png/d2.jpg" alt=""></div>PRÁCTICAS</figure>
+      <figure><div class="c"><img src="png/d3.jpg" alt=""></div>COBERTURAS</figure>
+      <figure><div class="c"><img src="png/d4.jpg" alt=""></div>RESEÑAS</figure>
+      <figure><div class="c"><img src="png/d5.jpg" alt=""></div>POLEN</figure>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="sec-h">
+      <span class="lbl">Semana 1</span>
+      <h2>Calendario del <em>alérgico porteño</em></h2>
+      <p>El reel del pasto, en versión para guardar: 7 placas que la gente se guarda y le manda a quien estornuda todas las primaveras. Deslizá para verlas.</p>
+    </div>
+    <div class="strip ca">
+      <figure><img src="png/c1.jpg" alt="Portada del carrusel Calendario del alérgico porteño" loading="lazy"></figure>
+      <figure><img src="png/c2.jpg" alt="Polen de pasto por mes: pico en noviembre y diciembre" loading="lazy"></figure>
+      <figure><img src="png/c3.jpg" alt="Calor y viento, más polen; lluvia, menos" loading="lazy"></figure>
+      <figure><img src="png/c4.jpg" alt="Resfrío 7 a 10 días, alergia semanas" loading="lazy"></figure>
+      <figure><img src="png/c5.jpg" alt="4 cosas simples que ayudan" loading="lazy"></figure>
+      <figure><img src="png/c6.jpg" alt="Lo más importante: saber a qué sos alérgico" loading="lazy"></figure>
+      <figure><img src="png/c7.jpg" alt="Escribinos PASTO al WhatsApp" loading="lazy"></figure>
+    </div>
+  </div>
+</section>
+
+<section class="mint">
+  <div class="wrap">
+    <div class="sec-h">
+      <span class="lbl">El plan</span>
+      <h2>Un mes, <em>una alergia por semana</em></h2>
+      <p>Es un consultorio, no una marca de ropa: alcanza con poco, pero sin cortes.</p>
+    </div>
+    <div class="rhythm">
+      <div><b>1</b><span>reel por semana</span></div>
+      <div><b>1</b><span>carrusel para guardar</span></div>
+      <div><b>3</b><span>días de historias: lunes polen, miércoles encuesta, viernes reseñas</span></div>
+    </div>
+    <div class="weeks">
+      <div class="wk"><span class="lbl">Lanzamiento</span><h3>Perfil completo</h3><ul><li>Los 3 reels (plátanos, gato, pasto fijado)</li><li>4 historias de presentación</li><li>5 destacadas</li></ul><span class="st">Listo</span></div>
+      <div class="wk"><span class="lbl">Semana 1</span><h3>Pasto</h3><ul><li>Carrusel "Calendario del alérgico porteño"</li><li>Encuesta: "¿Te pasa todas las primaveras?"</li><li>Historia semanal del polen</li></ul><span class="st">Carrusel listo</span></div>
+      <div class="wk"><span class="lbl">Semana 2</span><h3>Gato y mascotas</h3><ul><li>Carrusel "¿Mito o verdad?": gatos sin pelo, perros "hipoalergénicos", alergias de la infancia</li><li>Encuesta: "¿Sos alérgico y tenés gato?"</li></ul><span class="st no">A producir</span></div>
+      <div class="wk"><span class="lbl">Semana 3</span><h3>El consultorio por dentro</h3><ul><li>Carrusel "¿Qué es un test de alergia?": qué se siente, cuánto dura, qué llevar</li><li>Reel nuevo: ácaros o espirometría</li></ul><span class="st no">A producir</span></div>
+      <div class="wk"><span class="lbl">Semana 4</span><h3>Alergia a medicamentos</h3><ul><li>Carrusel "¿Cuándo consultar por una reacción a un medicamento o a un contraste?"</li><li>Repaso del mes con los resultados de las encuestas</li></ul><span class="st no">A producir</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="ink">
+  <div class="wrap">
+    <div class="sec-h">
+      <span class="lbl">Reglas</span>
+      <h2>Lo que <em>sí</em> y lo que <em>no</em></h2>
+      <p>Es contenido médico en nombre del doctor. Estas reglas se cumplen en cada publicación.</p>
+    </div>
+    <div class="rules">
+      <div class="yes"><h3>Sí</h3><ul>
+        <li>Datos concretos con su fuente (SGAIC, censo de arbolado de CABA)</li>
+        <li>"Lo más importante: saber a qué sos alérgico"</li>
+        <li>"Contenido informativo, no reemplaza la consulta médica" en cada texto</li>
+        <li>Humor cotidiano, como en los reels: "¡Achís!", "Ni vi al gato"</li>
+      </ul></div>
+      <div class="no"><h3>No</h3><ul>
+        <li>Prometer resultados: nada de "cura", "chau alergia" ni "garantizado"</li>
+        <li>Precios de consultas o tratamientos</li>
+        <li>Diagnosticar o indicar medicación en comentarios o mensajes</li>
+        <li>Fotos, nombres o casos de pacientes</li>
+      </ul></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="sec-h">
+      <span class="lbl">Para completar</span>
+      <h2>Tres datos y <em>salimos</em></h2>
+    </div>
+    <ol class="todo">
+      <li><div><b>Matrícula</b><span>Para la bio y para cuando el doctor aparece con su nombre.</span></div></li>
+      <li><div><b>Horario de atención</b><span>Para la destacada de Turnos y las historias de feriados.</span></div></li>
+      <li><div><b>Obras sociales y prepagas</b><span>Es lo que más se pregunta. Va en la destacada "Coberturas".</span></div></li>
+    </ol>
+  </div>
+</section>
+
+<footer class="wrap">
+  <p>Consultorio de Alergias Borthaburu · Alergia e Inmunología · Junín 1390 PB, CABA · WhatsApp 11 3602 1480 · Tel. 11 4715 1383</p>
+  <p>Reels: animación y sonido hechos en casa. Propuesta de diseño de Tranquera Digital.</p>
+</footer>
+
+</body>
+</html>
